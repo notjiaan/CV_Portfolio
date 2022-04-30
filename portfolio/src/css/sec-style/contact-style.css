@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@100;600&family=Raleway&family=Secular+One&display=swap');
+
+.contact-container {
+  background-color: #001F32;
+  color: #F1F1E6;
+}
+.contact-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.connect {
+  font-weight: 700;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+
+.contact-details{
+  background-color: #001325 !important;
+  border-radius: 0;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #000;
+}
+
+.icon-information {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.icon {
+  color: #009CF9;
+  font-size: 2em !important;
+  text-align: center;
+}
+.info {
+  padding-top: 20px;
+}
+

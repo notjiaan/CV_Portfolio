@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@100;600&family=Raleway&family=Secular+One&display=swap');
+
+
+/* NavBAR */
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(0, 19, 37, 0.9);
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.nav-item {
+  color: #F1F1E6 !important;
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.navbar-nav .nav-item::after {
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: #009CF9;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: #009CF9 !important;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-weight: 600;
+}
+
+/* CardSkills */
+.card-container {
+  background-color: #001325 !important;
+  border-radius: 0;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px #000;
+  color: #F1F1E6;
+  flex: 1 1;
+  max-width: 240px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.card-img {
+  max-width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+ .prog-title{
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder !important;
+  font-size: 20px !important;
+  letter-spacing: 1px;
+ }
+
+.card-container:hover{
+  color: #009CF9 !important;
+  transform: scale(1.08);
+
+  
+}
+
+/* PROJECT */
+.project-card{
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 5px 5px 5px rgb(255,255,255,0.1);
+  background-color: #F1F1E6 !important;
+  color: #F1F1E6;
+
+}
+.card-header{
+  background-color: #001F32 !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+
+
+
+/* FOOOTER */
+.page-footer {
+  background: #001325;
+  font-family: "Raleway", sans-serif;
+  color: #F1F1E6;
+}
+
+.soc-med-icons {
+  color: #F1F1E6;
+}
+.soc-med-icons:hover {
+  color: #009CF9;
+}

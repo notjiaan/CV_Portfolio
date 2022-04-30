@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Poppins:wght@100;600&family=Raleway&family=Secular+One&display=swap");
+
+.about-container {
+  background-color: #001325;
+}
+
+.motto-container {
+  color: white;
+  padding: 2%;
+}
+.motto-container h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #009CF9 !important;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: -1px 0 #202020, 0 1px #202020, 1px 0 #202020, 0 -1px #202020;
+  letter-spacing: 2px;
+  padding: 1% 0;
+}
+.motto-container p {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+.about-me-info-container {
+  color: #F1F1E6;
+}
+.about-me-info-container h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.about-me-paragraph {
+  text-align: justify !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+.my-photo {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 540px) {
+  
+  .motto-container {
+    font-size: 18px;
+    text-align: justify !important;
+  }
+  .motto-container h4 {
+    font-size: 18px;
+  }
+  .about-me-paragraph {
+    font-size: 18px;
+  }
+}
+@media (max-width: 320px) {
+  .motto-container {
+    font-size: 15px;
+    text-align: justify !important;
+  }
+  .motto-container h4 {
+    font-size: 15px;
+  }
+  .about-me-paragraph {
+    font-size: 15px;
+  }
+}
