@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "../css/sec-style/contact-style.css";
-import DefButton from "../components/DefButton";
+
 import {
   Row,
   Col,
@@ -48,7 +48,7 @@ const Contact = () => {
           Contact <span> Me. </span>
         </h2>
         <Row>
-          <Col>
+          <Col md={12} lg>
             <h1 className="connect py-5">Want To Connect ?</h1>
             <Card className="contact-details my-5">
               <Card.Body>
@@ -67,7 +67,7 @@ const Contact = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
+          <Col md={12} lg>
             <h5 className="py-5">
               <strong>
                 <span>What's your story?</span>

@@ -6,17 +6,15 @@
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .home-text-container {
-  color: #F1F1E6;
+  color: #D1E7E4;
   
 }
 
 .home-text-container h1 {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 2px;
   color: #009CF9;
   font-weight: 700;
 }
@@ -33,7 +31,7 @@
 }
 .homepage-arrow {
   text-decoration: none;
-  color: #F1F1E6;
+  color: #D1E7E4;
 }
 .homepage-arrow:hover {
   color: #009CF9;

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Modal } from "react-bootstrap";
+import "../css/comp-style/comp-style.css";
 
 
 const ProjectModal = (props) => {
   return (
-    <Modal size="xl" show={props.show} onHide={props.modalVisible}>
-        <Modal.Header closeButton>
+    <Modal size="xl" show={props.show} onHide={props.modalVisible} className="project-modal">
+        <Modal.Header closeButton closeVariant='white'>
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>

@@ -9,8 +9,9 @@ nav {
   backdrop-filter: blur(5px);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+
 .nav-item {
-  color: #F1F1E6 !important;
+  color: #fff!important;
   margin-left: 1em;
   margin-right: 1em;
   text-decoration: none;
@@ -45,7 +46,7 @@ nav {
   border-radius: 0;
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #000;
-  color: #F1F1E6;
+  color: #D1E7E4;
   flex: 1 1;
   max-width: 240px;
   justify-content: center;
@@ -78,15 +79,21 @@ nav {
   font-weight: bolder;
   border: none !important;
   border-radius: 10px !important;
-  box-shadow: 5px 5px 5px rgb(255,255,255,0.1);
-  background-color: #F1F1E6 !important;
-  color: #F1F1E6;
+  box-shadow: 5px 5px 5px 5px #000;
+  
+  background-color: #D1E7E4 !important;
+  color: #D1E7E4;
 
 }
 .card-header{
   background-color: #001F32 !important;
   border-top-right-radius: 10px !important;
   border-top-left-radius: 10px !important;
+}
+
+.modal-content{
+  background-color: #001F32 !important;
+  color: #D1E7E4 ;
 }
 
 
@@ -96,11 +103,14 @@ nav {
 .page-footer {
   background: #001325;
   font-family: "Raleway", sans-serif;
-  color: #F1F1E6;
+  color: #D1E7E4;
+}
+.footer-copyright{
+  color: #D1E7E4;
 }
 
 .soc-med-icons {
-  color: #F1F1E6;
+  color: #D1E7E4;
 }
 .soc-med-icons:hover {
   color: #009CF9;

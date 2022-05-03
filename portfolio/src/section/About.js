@@ -2,7 +2,6 @@ import React from "react";
 import "../css/sec-style/about-style.css";
 import CV from "../assets/files/Abad-JiaanPatrick-CV .pdf";
 import MyPhoto from "../assets/images/my_photo.png";
-import DefButton from "../components/DefButton";
 import { Row, Col, Container, Card, Button } from "react-bootstrap";
 
 const About = () => {

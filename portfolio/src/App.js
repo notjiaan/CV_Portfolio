@@ -24,7 +24,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
-      <ScrollToTop smooth top="800" />
+      <ScrollToTop smooth top="800"/>
     </>
   );
 }

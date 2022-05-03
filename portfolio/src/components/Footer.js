@@ -19,8 +19,8 @@ const Footer = () => {
           <Instagram className="mx-1 soc-med-icons" />
         </Link>
       </div>
-      <div className="footer-copyright text-center text-light py-3">
-        © 2022 Copyright: Jiaan Abad
+      <div className="footer-copyright text-center  py-3">
+        © 2022: Jiaan Patrick Abad
       </div>
     </footer>
   );
