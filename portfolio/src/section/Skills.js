@@ -24,7 +24,7 @@ const Skills = () => {
         <h2 className="pb-5">
           Technical <span> Skills. </span>
         </h2>
-        <Row className="py-3">
+        <Row className="py-1">
           <Col sm={12} md={6} lg className="d-flex justify-content-center pb-3">
             <CardSkills img={HTML} title="HTML" alt="HTML" />
           </Col>

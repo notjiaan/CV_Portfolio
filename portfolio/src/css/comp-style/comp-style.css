@@ -39,6 +39,9 @@ nav {
 .navbar-brand {
   font-weight: 600;
 }
+.navbar-toggler-icon{
+  font-size: 0.8em;
+}
 
 /* CardSkills */
 .card-container {
@@ -101,9 +104,8 @@ nav {
 }
 .project-modal-description{
   font-family: "Raleway", sans-serif;
+  text-align: justify !important;
 }
-
-
 
 
 /* FOOOTER */
