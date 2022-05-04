@@ -4,7 +4,7 @@ import { Card, Container, Button } from "react-bootstrap";
 
 const ProjectsComp = (props) => {
   return (
-    <Container className="pb-5 pt-5 text-center">
+    <Container className="pb-1 pt-5 text-center">
       <Card className="project-card">
         <Card.Header className="pt-4 card-header">{props.projectTitle}</Card.Header>
         <Card.Body>
