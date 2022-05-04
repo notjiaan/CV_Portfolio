@@ -33,9 +33,9 @@ const About = () => {
                 <p className="about-me-paragraph">
                   I am experienced working in teams and being in projects namely
                   Software Engineering and Capstone that involved creating web
-                  and mobile applications. Looking to improve and cultivate my
-                  skills in web and app development and in software quality
-                  assurance.
+                  and mobile applications. Committed in exploring my career path
+                  and expand my experiences as a future Information Technology 
+                  professional. 
                 </p>
                 <Button
                   className="button"
