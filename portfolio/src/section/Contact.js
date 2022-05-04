@@ -76,13 +76,14 @@ const Contact = () => {
             </h5>
             <Form ref={form} onSubmit={sendEmail} className="py-5">
               <Form.Group className="mb-4" controlId="name">
-                <Form.Control type="text" placeholder="Name" name="name" />
+                <Form.Control type="text" placeholder="Name" name="name" required />
               </Form.Group>
               <Form.Group className="mb-4" controlId="email">
                 <Form.Control
                   name="email"
                   type="email"
                   placeholder="Email: ex (name@example.com)"
+                  required
                 />
               </Form.Group>
               <Form.Group className="mb-4" controlId="subject">
@@ -90,6 +91,7 @@ const Contact = () => {
                   type="text"
                   placeholder="Subject"
                   name="subject"
+                  required
                 />
               </Form.Group>
               <Form.Group className="mb-4" controlId="message">
@@ -98,6 +100,7 @@ const Contact = () => {
                   rows={3}
                   placeholder="Message..."
                   name="message"
+                  required
                 />
               </Form.Group>
               <Button className="button" type="submit">
