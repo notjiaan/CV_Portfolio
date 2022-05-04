@@ -95,6 +95,13 @@ nav {
   background-color: #001F32 !important;
   color: #D1E7E4 ;
 }
+.project-modal-title{
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: bold !important;
+}
+.project-modal-description{
+  font-family: "Raleway", sans-serif;
+}
 
 
 
