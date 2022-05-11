@@ -9,7 +9,6 @@ import {
   Form,
   Card,
   Button,
-  FloatingLabel,
 } from "react-bootstrap";
 import { LocalPhone, Email, MyLocation } from "@mui/icons-material";
 

@@ -5,6 +5,7 @@ import FurCare from "../components/projects/FurCare";
 import FigmaHTML from "../components/projects/FigmaHtml";
 import NodeBlog from "../components/projects/NodeBlog";
 import GreenFoot from "../components/projects/GreenFoot";
+import MyWeekend from "../components/projects/MyWeekend";
 import { Container, Button } from "react-bootstrap";
 
 const Project = () => {
@@ -39,6 +40,7 @@ const Project = () => {
             <FigmaHTML />
             <NodeBlog />
             <GreenFoot />
+            <MyWeekend /> 
             <div className="showToggler mt-3 d-flex justify-content-center">
               <Button className="button" onClick={showToggler}>
                 See Less

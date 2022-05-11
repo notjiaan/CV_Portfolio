@@ -2,7 +2,7 @@ import React from "react";
 import "../css/sec-style/about-style.css";
 import CV from "../assets/files/Abad-JiaanPatrick-CV .pdf";
 import MyPhoto from "../assets/images/my_photo.png";
-import { Row, Col, Container, Card, Button } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 
 const About = () => {
   return (
