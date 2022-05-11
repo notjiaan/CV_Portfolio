@@ -1,11 +1,14 @@
 {
   "files": {
     "main.css": "/CV_Portfolio/static/css/main.b5f3a836.css",
-    "main.js": "/CV_Portfolio/static/js/main.770ac53b.js",
+    "main.js": "/CV_Portfolio/static/js/main.b7d44de4.js",
     "static/js/787.1ed0c42c.chunk.js": "/CV_Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/figma3.png": "/CV_Portfolio/static/media/figma3.71eaa6201b96af6c04af.png",
     "static/media/figma1.png": "/CV_Portfolio/static/media/figma1.c34fdd1bbba321700237.png",
+    "static/media/weekend2.png": "/CV_Portfolio/static/media/weekend2.7891c2942a00d879ff29.png",
     "static/media/figma2.png": "/CV_Portfolio/static/media/figma2.9e9bcf9049e02b09ba8f.png",
+    "static/media/weekend1.png": "/CV_Portfolio/static/media/weekend1.de5766bf74cb85d0d526.png",
+    "static/media/weekend3.png": "/CV_Portfolio/static/media/weekend3.ab141d6166d34a000069.png",
     "static/media/greenfoot5.png": "/CV_Portfolio/static/media/greenfoot5.353e511ca29e81181003.png",
     "static/media/my_photo.png": "/CV_Portfolio/static/media/my_photo.fc61bb667e1446a5b1cc.png",
     "static/media/furcare5.png": "/CV_Portfolio/static/media/furcare5.6f7df75ab79e7b3a073c.png",
@@ -43,11 +46,11 @@
     "static/media/escolario8.png": "/CV_Portfolio/static/media/escolario8.7326c3a8c8ed3acf7fa6.png",
     "index.html": "/CV_Portfolio/index.html",
     "main.b5f3a836.css.map": "/CV_Portfolio/static/css/main.b5f3a836.css.map",
-    "main.770ac53b.js.map": "/CV_Portfolio/static/js/main.770ac53b.js.map",
+    "main.b7d44de4.js.map": "/CV_Portfolio/static/js/main.b7d44de4.js.map",
     "787.1ed0c42c.chunk.js.map": "/CV_Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5f3a836.css",
-    "static/js/main.770ac53b.js"
+    "static/js/main.b7d44de4.js"
   ]
 }
